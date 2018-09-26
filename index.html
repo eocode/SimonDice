@@ -12,29 +12,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+<div class="container m-t-5">
     <div class="row">
         <div class="col-sm-12">
-            <hr>
-            <h2 class="text-center">Simon Dice</h2>
+            <strong>
+                <h4 class="text-center f-s-12">Simon Dice <small>version 1.2</small></h4>
+            </strong>
             <p class="text-justify">
-                <strong>Intrucciones del juego:</strong>
+                <strong>¿Qué tan buena memoria tienes?</strong> Selecciona la secuencia para acumular puntos y ganar el juego.
             </p>
-            <ul>
-                <li>Presione comenzar el juego para iniciar.</li>
-                <li>Seleccione los colores conforme se presenten para ganar.</li>
-            </ul>
-            <p></p>
         </div>
         <div class="col-sm-12">
-            <div class="alert alert-success">
-                <strong> Puntuación </strong>
-                <span id="puntos">0 puntos</span>
-                <strong> Nivel</strong>
-                <span id="nivel">0</span>
-                <strong> Mejor puntuación</strong>
-                <span id="mejor_puntuacion">55 puntos</span>
-            </div>
+            <small>
+                <b> Puntuación </b>
+                <span class="badge badge-info" id="puntos">0 puntos</span>
+                <b> Nivel</b>
+                <span class="badge badge-info" id="nivel">0</span><br>
+                <b> Mejor puntuación</b>
+                <span class="badge badge-success" id="mejor_puntuacion">55 puntos</span>
+            </small>
         </div>
         <div class="col-sm-12">
             <div class="gameboard center-block">
